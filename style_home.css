@@ -1,0 +1,42 @@
+.tab1{
+    width: 50%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.col{
+    width: 25%;
+}
+.table_head{
+    background-color: gray;
+    color: yellow;
+    height: 60px;
+    font-size: 22px;
+}
+.black_back{
+    background-color: black;
+    color: white;
+}
+.green_back{
+    background-color: green;
+}
+
+.tab2{
+    width: 800px;
+    background-color: silver;
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+.size{
+    width: 60px;
+    height: 60px;
+}
+.white_back{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}

@@ -3,20 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
-    <style>
-        table{
-            width: 100%;
-            background-color: ghostwhite;
-        }
-        .col{
-            width: 15%;
-        }
-    </style>
+    <link rel="stylesheet" href="style_home.css">
 </head>
 <body>
 <form>
-    <table cellspacing="2" border="1" cellpadding="5">
-        <tr>
+    <table cellspacing="2" cellpadding="5"  class="tab1">
+        <tr class="table_head">
             <th class="col">
                 Лейбл
             </th>
@@ -24,7 +16,7 @@
                 Поле ввода
             </th>
         </tr>
-        <tr>
+        <tr class="black_back">
             <td>
                 Скрытое поле
             </td>
@@ -36,33 +28,31 @@
             <td>
                 Имя
             </td>
-            <td>
+            <td class="black_back">
                 <input type="text">
             </td>
         </tr>
         <tr>
-            <td>
+            <td class="black_back">
                 Фамилия
             </td>
             <td>
                 <input type="text">
             </td>
         </tr>
-        <tr>
+        <tr class="black_back">
             <td>
                 О себе
             </td>
             <td>
-                <textarea>
-
-                </textarea>
+                <textarea></textarea>
             </td>
         </tr>
         <tr>
             <td>
                 Город
             </td>
-            <td>
+            <td class="black_back">
                 <select>
                     <option>Харьков</option>
                     <option>Киев</option>
@@ -72,7 +62,7 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td class="black_back">
                 Пол
             </td>
             <td>
@@ -82,7 +72,7 @@
                 <label>Женский</label>
             </td>
         </tr>
-        <tr>
+        <tr class="black_back">
             <td>
                 Мне есть 12 лет
             </td>
@@ -98,7 +88,7 @@
                 <input type="file">
             </td>
         </tr>
-        <tr>
+        <tr class="green_back">
             <td>
             </td>
             <td>
@@ -107,5 +97,58 @@
         </tr>
     </table>
 </form>
+
+<table class="tab2">
+    <tr>
+        <td class="white_back" colspan="2" rowspan="2"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="white_back" colspan="4"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="white_back" rowspan="3"></td>
+        <td class="size"></td>
+        <td class="white_back" rowspan="3"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="white_back" colspan="2" rowspan="2"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="white_back" colspan="4" rowspan="4"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+        <td class="size"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="white_back" colspan="2" rowspan="2"></td>
+        <td class="size"></td>
+    </tr>
+    <tr>
+        <td class="size"></td>
+        <td class="size"></td>
+    </tr>
+
+</table>
 </body>
 </html>
